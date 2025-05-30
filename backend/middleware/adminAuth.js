@@ -1,8 +1,8 @@
-import jwt from "jsonwebtoken"
+import jwt from 'jsonwebtoken'
 
 const adminAuth = async (req,res,next) => {
     try {
-        const {token} = req.headers
+        const { token } = req.headers
         if (!token) {
             return res.json({success:false,message:"Not Authorized Login Again"})
         }
@@ -13,7 +13,7 @@ const adminAuth = async (req,res,next) => {
         next()
     } catch (error) {
         console.log(error)
-        res.json({success:false,message:error.message})
+        res.json({ success: false, message: error.message })
     }
 }
 

@@ -2,10 +2,12 @@ import mongoose from "mongoose";
 
 const connectDB = async () => {
 
-    mongoose.connection.on('connected',()=>{
-        console.log("DB Connected")
+    mongoose.connection.on('connected',() => {
+        console.log("DB Connected");
     })
 
-    await mongoose.connect(`${process.env.MONGODB_URI}/hananaccessories`)
+    await mongoose.connect(`${process.env.MONGODB_URI}/hanan-accessories`)
+
 }
-export default connectDB
+
+export default connectDB;
