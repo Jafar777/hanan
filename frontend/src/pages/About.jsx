@@ -14,10 +14,12 @@ const About = () => {
       <div className='my-10 flex flex-col md:flex-row gap-16'>
           <img className='w-full md:max-w-[450px]' src={assets.about_img} alt="" />
           <div className='flex flex-col justify-center gap-6 md:w-2/4 text-gray-600'>
-              <p>Forever was born out of a passion for innovation and a desire to revolutionize the way people shop online. Our journey began with a simple idea: to provide a platform where customers can easily discover, explore, and purchase a wide range of products from the comfort of their homes.</p>
-              <p>Since our inception, we've worked tirelessly to curate a diverse selection of high-quality products that cater to every taste and preference. From fashion and beauty to electronics and home essentials, we offer an extensive collection sourced from trusted brands and suppliers.</p>
+              <p>Hanan Accessories was born out of a passion for craftsmanship and a desire to bring a unique touch of elegance to those who appreciate beauty in the details. Our journey began with a simple idea: to create a platform where customers can discover a curated selection of handmade accessories, crafted with love and care.
+Since our launch, we've worked diligently to design and offer a diverse collection of accessories that suit various styles and preferences. From bracelets and necklaces to earrings and custom pieces, each item is thoughtfully handmade using high-quality materials to ensure authenticity and distinction.</p>
+            
               <b className='text-gray-800'>Our Mission</b>
-              <p>Our mission at Forever is to empower customers with choice, convenience, and confidence. We're dedicated to providing a seamless shopping experience that exceeds expectations, from browsing and ordering to delivery and beyond.</p>
+              <p>Our Mission
+At Hanan Accessories, our mission is to empower customers with individuality, quality, and charm. We're dedicated to delivering a personalized shopping experience that celebrates the art of handmade design—from browsing to delivery and beyond.</p>
           </div>
       </div>
 
